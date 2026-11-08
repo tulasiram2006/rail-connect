@@ -48,7 +48,7 @@ const EMPTY_CAPACITY: Record<TrainClass, number> = {
 
 @Injectable({ providedIn: 'root' })
 export class TrainService {
-  private readonly API = 'http://127.0.0.1:5000';
+  private readonly API = 'https://rail-connect-backend.onrender.com';
 
   stations = STATIONS;
 
