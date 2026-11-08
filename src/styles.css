@@ -1,0 +1,54 @@
+/* RAIL CONNECT - GLOBAL DARK THEME */
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #080d18 !important;
+  color: #f8fafc;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+app-root {
+  display: block;
+  min-height: 100vh;
+}
+
+/* Full width home page */
+.home-page {
+  width: 100%;
+  margin: 0;
+}
+
+/* Dark Bootstrap cards and forms */
+.card {
+  background: #111b2e;
+  color: #f8fafc;
+  border: 1px solid #263650;
+}
+
+.form-control,
+.form-select {
+  background-color: #111b2e;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #16233a;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.form-control::placeholder {
+  color: #94a3b8;
+}
+
+.text-muted {
+  color: #94a3b8 !important;
+}
+/* You can add global styles to this file, and also import other style files */
